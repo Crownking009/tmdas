@@ -1,0 +1,32 @@
+# Global rules
+User-agent: *
+Allow: /
+
+# Prevent crawling of unnecessary directories
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /admin/
+Disallow: /fonts/
+
+# Google-specific rules
+User-agent: Googlebot
+Allow: /
+
+# Allow Google Images to crawl images
+User-agent: Googlebot-Image
+Allow: /img/
+
+# Allow Google Video to crawl videos
+User-agent: Googlebot-Video
+Allow: /videos/
+
+# Allow Google's Mobile-Friendly Test
+User-agent: Googlebot-Mobile
+Allow: /
+
+# Add crawl delay for non-Google bots
+User-agent: *
+Crawl-delay: 10
+
+# Point to your sitemap
+Sitemap: https://www.tmdascateringserviceltd.com/sitemap.xml

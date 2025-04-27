@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Critical preloads -->
+    <link rel="preload" href="img/logo-tmdas.webp" as="image" type="image/webp" fetchpriority="high">
+    <link rel="preload" href="css/style.css?v=1.1" as="style">
+    <link rel="preload" href="css/bootstrap.min.css" as="style">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    
+    <!-- SEO Meta Tags -->
+    <title>TMDAS Catering Services | Digital Menu</title>
+    <meta name="description" content="Explore our authentic Nigerian food menu at TMDAS Catering Services. Browse our selection of traditional dishes made with fresh ingredients.">
+    <meta name="keywords" content="Nigerian food menu, Lagos restaurant menu, African cuisine, TMDAS catering services menu">
+    <meta name="author" content="TMDAS Catering Services Ltd">
+    
+    <link rel="icon" href="/favicon.ico" type="image/x-icon"> 
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
+    <link rel="manifest" href="/favicon_io/site.webmanifest">
+    
+    <!-- Primary Stylesheets -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" fetchpriority="high">
+    <link href="css/style.css?v=1.1" rel="stylesheet" fetchpriority="high">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    
+</head>
+<body>
+
+
+
+ <!-- Spinner Start -->
+ <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
+    <div class="spinner-grow text-primary" role="status"></div>
+</div>
+<!-- Spinner End -->
+
+
+
+            <div class="container-fluid nav-bar">
+                <div class="container">
+                    <nav class="navbar navbar-light navbar-expand-lg py-4">
+                        <a href="index.html" class="navbar-brand d-flex flex-column">
+                            <div class="d-flex align-items-center" style="gap: 0;">
+                              <!-- Replace your current logo image tag with this -->
+                                <img src="img/logo-tmdas.webp" alt="TMDAS Logo" width="224" height="100" fetchpriority="high" class="logo-img">
+                                <!-- <h1 class="text-primary fw-bold mb-0">TM<span class="text-dark">DAS</span></h1> -->
+                            </div>
+                            <!-- <small class="text-muted">Catering Services</small> -->
+                        </a>
+            <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars text-primary"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav mx-auto">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="service.html" class="nav-item nav-link">Services</a>
+                    
+                    <a href="menu.html" class="nav-item nav-link">Menu</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                        <div class="dropdown-menu bg-light">
+                            <a href="book.html" class="dropdown-item">Booking</a>                                                                      
+                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                            
+                        </div>
+                    </div>
+                    <a href="qrmenu.html" class="nav-item nav-link">Menu-List</a>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+                <button class="btn-search btn btn-primary btn-md-square me-4 rounded-circle d-none d-lg-inline-flex" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
+                <a href="book.html" class="btn btn-primary py-2 px-4 d-none d-xl-inline-block rounded-pill">Book Now</a>
+            </div>
+        </nav>
+    </div>
+</div>
+<!-- Navbar End -->
+
+
+    <div class="menu-container2">
+        <div class="menu-header2">
+            <h1 class="menu-title2">Welcome to TMDAS FOODS & EVENTS</h1>
+        </div>
+        
+        <!-- Main Dishes -->
+        <div class="menu-category2 mb-4">
+            <h2 class="category-title2">Main Dishes</h2>
+            <div class="row">
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="img/jollofrice.jpg" alt="Jollof Rice" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">Jollof Rice</div>
+                            <div class="item-description2">Flavorful rice cooked in tomato sauce with peppers and spices</div>
+                            <div class="item-price2">₦1,500</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="img/RICE-BEANS.jpg" alt="ricebenns" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">Rice-Beans</div>
+                            <div class="item-description2"></div>
+                            <div class="item-price2">₦2,000</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="img/Chips.jpg" alt="chips" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">Chips</div>
+                            <div class="item-description2"></div>
+                            <div class="item-price2">₦1,800</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="img/DODO-CHUNKS.jpg" alt="dodo" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">Dodo Chunks</div>
+                            <div class="item-description2"></div>
+                            <div class="item-price2">₦1,700</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="img/SPAGHETTI.jpg" alt="spag" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">Spaghetti</div>
+                            <div class="item-description2"></div>
+                            <div class="item-price2">₦2,200</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="img/chickenQuarterRotisserie.jpg" alt="Rotisserie" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">Chicken Quarter Rotisserie</div>
+                            <div class="item-description2"></div>
+                            <div class="item-price2">₦2,200</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="img/CHICKEN-PIECES.jpg" alt="chicken" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">Chicken Pieces</div>
+                            <div class="item-description2"></div>
+                            <div class="item-price2">₦2,100</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="img/drumstick.jpg" alt="drumstick" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">Chicken Drumsticks</div>
+                            <div class="item-description2"></div>
+                            <div class="item-price2">₦2,100</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="img/FullChicken.jpg" alt="Okro Soup" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">Full Chicken</div>
+                            <div class="item-description2"></div>
+                            <div class="item-price2">₦1,800</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="img/PASTA-SALAD.jpg" alt="Ogbono Soup" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">Pasta Salad</div>
+                            <div class="item-description2"></div>
+                            <div class="item-price2">₦1,900</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="img/friedrice.jpg" alt="Fried Rice" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">Fried Rice</div>
+                            <div class="item-description2">Nigerian style fried rice with vegetables and proteins</div>
+                            <div class="item-price2">₦1,500</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="img/White-Rice.png" alt="rice" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">White Rice</div>
+                            <div class="item-description2"></div>
+                            <div class="item-price2">₦1,700</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="img/yam-pottage.jpg" alt="asaro" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">Yam porriage (Asaro)</div>
+                            <div class="item-description2"></div>
+                            <div class="item-price2">₦1,700</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="img/moinMoin.jpg" alt="Moi Moi" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">Moi Moi</div>
+                            <div class="item-description2">Steamed bean pudding with boiled eggs and fish</div>
+                            <div class="item-price2">₦500</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="img/Asun_nvrrm6.jpg" alt="Moi Moi" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">Asun</div>
+                            <div class="item-description2"></div>
+                            <div class="item-price2">₦2,500</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="img/ponmoinstew.webp" alt="ponmo" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">Ponmo</div>
+                            <div class="item-description2"></div>
+                            <div class="item-price2">500</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="img/beef.jpg" alt="beef" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">Beef</div>
+                            <div class="item-description2"></div>
+                            <div class="item-price2">₦1,500</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="img/beef.jpg" alt="fresh fish" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">Fresh Fish</div>
+                            <div class="item-description2"></div>
+                            <div class="item-price2">₦1,500</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="img/grilled-fish.jpg" alt="fish" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">Grilled Fish</div>
+                            <div class="item-description2"></div>
+                            <div class="item-price2">₦2,500</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="img/boiled-egg.jpg" alt="egg" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">Boiled Egg</div>
+                            <div class="item-description2"></div>
+                            <div class="item-price2">₦500</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Swallows -->
+        <div class="menu-category2 mb-4">
+            <h2 class="category-title2">Swallows</h2>
+            <div class="row">
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="img/pounded yam.jpg" alt="Pounded Yam" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">Pounded Yam</div>
+                            <div class="item-description2">Smooth, dough-like consistency made from pounded yam</div>
+                            <div class="item-price2">₦800</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="img/garri.jpg" alt="Eba (Garri)" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">Eba (Garri)</div>
+                            <div class="item-description2">Cassava flour swallow, perfect with any soup</div>
+                            <div class="item-price2">₦600</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="img/amala.jpg" alt="Amala" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">Amala</div>
+                            <div class="item-description2">Smooth swallow made from yam flour</div>
+                            <div class="item-price2">₦700</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="/api/placeholder/400/320" alt="Fufu" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">Fufu</div>
+                            <div class="item-description2">Fermented cassava swallow</div>
+                            <div class="item-price2">₦700</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="img/semo.jpg" alt="Semovita" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">Semovita</div>
+                            <div class="item-description2">Semolina-based swallow with smooth texture</div>
+                            <div class="item-price2">₦600</div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
+                
+            </div>
+        </div>
+        
+        <!-- Snacks & Street Food -->
+        <div class="menu-category2 mb-4">
+            <h2 class="category-title2">Snacks & Street Food</h2>
+            <div class="row">
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="img/MeatPies.jpg" alt="Meat Pie" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">Meat Pie</div>
+                            <div class="item-description2"></div>
+                            <div class="item-price2">₦600</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="img/CHICKEN-PIES.jpg" alt="chicken" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">Chicken Pie</div>
+                            <div class="item-description2"></div>
+                            <div class="item-price2">₦600</div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="img/sharwama.jpg" alt="shawarma" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">Shawarma</div>
+                            <div class="item-description2"></div>
+                            <div class="item-price2">₦2,000</div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="img/beef-roll.jpg" alt="beef-roll" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">Cheese Beef Roll</div>
+                            <div class="item-description2"></div>
+                            <div class="item-price2">₦600</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="img/doughnut.jpg" alt="doughnut" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">Doughnuts</div>
+                            <div class="item-description2"></div>
+                            <div class="item-price2">₦500</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="/api/placeholder/400/320" alt="Fish Roll" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">Fish Roll</div>
+                            <div class="item-description2">Pastry filled with spiced fish filling</div>
+                            <div class="item-price2">₦500</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Drinks -->
+        <div class="menu-category2 mb-4">
+            <h2 class="category-title2">Drinks</h2>
+            <div class="row">
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="img/image (4).webp" alt="Bottled Water" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">Bottled Water</div>
+                            <div class="item-description2">75cl eva drinking water</div>
+                            <div class="item-price2">₦200</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="img/image (4).webp" alt="Bottled Water" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">Big Bottled Water</div>
+                            <div class="item-description2">Big eva drinking water</div>
+                            <div class="item-price2">₦400</div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="img/fanta.webp" alt="Fanta" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">Fanta</div>
+                            <div class="item-description2">50cl bottle</div>
+                            <div class="item-price2">₦450</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="img/coke.webp" alt="coke" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">Coke</div>
+                            <div class="item-description2">50cl bottle</div>
+                            <div class="item-price2">₦450</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="img/sprite.jpg" alt="Sprite" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">Sprite</div>
+                            <div class="item-description2">50cl bottle</div>
+                            <div class="item-price2">₦450</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="/api/placeholder/400/320" alt="Chapman" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">Chapman</div>
+                            <div class="item-description2">Nigerian special cocktail drink</div>
+                            <div class="item-price2">₦700</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="img/malta.webp" alt="malt" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">Malta Guinness</div>
+                            <div class="item-description2">can drink</div>
+                            <div class="item-price2">₦700</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="img/5alive.jpg" alt="5alive" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">5Alive</div>
+                            <div class="item-description2">Citrus Drink</div>
+                            <div class="item-price2">₦2800</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="img/chivita.webp" alt="chivita" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">Chivita Active</div>
+                            <div class="item-description2">Chivita orange Active</div>
+                            <div class="item-price2">₦500</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Desserts -->
+        <div class="menu-category2">
+            <h2 class="category-title2">Soup</h2>
+            <div class="row">
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="img/seafood okro.jpg" alt="okro" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">Seafood Okro</div>
+                            <div class="item-description2"></div>
+                            <div class="item-price2">₦2300</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="img/eforiro.jpg" alt="eforiro" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">Efo Riro</div>
+                            <div class="item-description2"></div>
+                            <div class="item-price2">₦1400</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="img/egusi-soup.jpg" alt="egusi" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">Egusi</div>
+                            <div class="item-description2"></div>
+                            <div class="item-price2">₦1,600</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="img/pepper soup fish.jpg" alt="pepper soup fish" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">Pepper Soup Fish</div>
+                            <div class="item-description2"></div>
+                            <div class="item-price2">₦2400</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="img/chick pepper soup.jpg" alt="pepper soup chicken" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">Pepper Soup Chicken</div>
+                            <div class="item-description2"></div>
+                            <div class="item-price2">₦2400</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="img/Gizzard.webp" alt="gizzard" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">Gizzard</div>
+                            <div class="item-description2"></div>
+                            <div class="item-price2">₦1,000</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-item2">
+                        <img src="img/takeaway.jpg" alt="pack" class="item-image2">
+                        <div class="item-info2">
+                            <div class="item-name2">Takeaway pack</div>
+                            <div class="item-description2"></div>
+                            <div class="item-price2">₦1,000</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="centerr-content">
+        <p>For orders and inquiries: <strong>+2349068910115</strong></p>
+        <a href="index.html" class="btn btn-primary mt-2">Visit Our Website</a>
+    </div>
+        </div>
+    </div>
+    
+    
+     <!-- WhatsApp Floating Button HTML -->
+     <a href="https://wa.me/447584031408?text=I'm%20interested%20in%20your%20services" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+
+
+<!-- Footer Start -->
+<div class="container-fluid footer py-6 my-6 mb-0 bg-light wow bounceInUp" data-wow-delay="0.1s">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <div class="footer-item">
+                    <!-- <h1 class="text-primary">TMM<span class="text-dark">DAS</span></h1> -->
+                  <!-- Replace your current logo image tag with this -->
+<img src="img/logo-tmdas.webp" alt="TMDAS Logo" width="224" height="100" fetchpriority="high" class="logo-img">
+                    <p class="lh-lg mb-4">We craft delicious experiences. Our passion is creating memorable meals for every occasion, from corporate events to intimate home gatherings. We bring flavor and professionalism to your table</p>
+                    <div class="footer-icon d-flex">
+                        <a class="btn btn-primary btn-sm-square me-2 rounded-circle" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-primary btn-sm-square me-2 rounded-circle" href=""><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="btn btn-primary btn-sm-square me-2 rounded-circle"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="btn btn-primary btn-sm-square rounded-circle"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="footer-item">
+                    <h4 class="mb-4">Special Facilities</h4>
+                    <div class="d-flex flex-column align-items-start">
+                        <a class="text-body mb-3" href=""><i class="fa fa-check text-primary me-2"></i>Ayamase</a>
+                        <a class="text-body mb-3" href=""><i class="fa fa-check text-primary me-2"></i>Asaro</a>
+                        <a class="text-body mb-3" href=""><i class="fa fa-check text-primary me-2"></i>Dodo-Gizzard</a>
+                        <a class="text-body mb-3" href=""><i class="fa fa-check text-primary me-2"></i>Moi-Moi</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="footer-item">
+                    <h4 class="mb-4">Contact Us</h4>
+                    <div class="d-flex flex-column align-items-start">
+                        <!-- <p><i class="fa fa-map-marker-alt text-primary me-2"></i> 123 Street, Lagos, NNNigeria</p> -->
+                        <p><i class="fa fa-phone-alt text-primary me-2"></i> UK. 447584031408 <br> NIG. 09068910115</p>
+                        <p><i class="fas fa-envelope text-primary me-2"></i> info@tmdascateringserviceltd.com</p>
+                        <p><i class="fa fa-clock text-primary me-2"></i> 24 Hours service</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="footer-item">
+                    <h4 class="mb-4">Social Gallery</h4>
+                    <div class="row g-2">
+                        <div class="col-4">
+                             <img src="img/menu-01.webp" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                        </div>
+                        <div class="col-4">
+                             <img src="img/menu-02.webp" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                        </div>
+                        <div class="col-4">
+                             <img src="img/menu-03.webp" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                        </div>
+                        <div class="col-4">
+                             <img src="img/menu-04.webp" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                        </div>
+                        <div class="col-4">
+                             <img src="img/menu-05.webp" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                        </div>
+                        <div class="col-4">
+                             <img src="img/menu-06.webp" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+
+<!-- Copyright Start -->
+<div class="container-fluid copyright bg-dark py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>TMDAS Catering Service</a>, All right reserved.</span>
+            </div>
+            <div class="col-md-6 my-auto text-center text-md-end text-white">
+               
+                Designed By <a class="border-bottom" href="#">CROWNTECH</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Copyright End -->
+
+
+<!-- Back to Top -->
+<a href="#" class="btn btn-md-square btn-primary rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+
+        <!-- JavaScript Libraries -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" defer></script>
+<!-- Additional libraries with defer attribute -->
+<script src="lib/easing/easing.min.js" defer></script>
+<script src="lib/waypoints/waypoints.min.js" defer></script>
+<script src="lib/counterup/counterup.min.js" defer></script>
+<script src="lib/lightbox/js/lightbox.min.js" defer></script>
+<script src="lib/owlcarousel/owl.carousel.min.js" defer></script>
+<!-- Template Javascript -->
+<script src="js/main.js" defer></script>
+
+</body>
+</html>

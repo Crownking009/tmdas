@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<urlset 
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" 
+    xmlns:video="http://www.google.com/schemas/sitemap-video/1.1" 
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 
+                        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"> 
+<url> 
+  <loc>https://www.tmdascateringserviceltd.com/</loc> 
+  <lastmod>2025-04-18T23:34:04+00:00</lastmod> 
+  <changefreq>weekly</changefreq> 
+  <priority>1.00</priority> 
+  <image:image> 
+    <image:loc>https://www.tmdascateringserviceltd.com/img/logo-tmdas.webp</image:loc> 
+    <image:title>TMDAS Catering Services Logo</image:title> 
+  </image:image>
+  <video:video> 
+    <video:title>Nigerian Cooking Demonstration</video:title> 
+    <video:description>Watch our chef prepare authentic Nigerian dishes</video:description> 
+    <video:content_loc>https://www.tmdascateringserviceltd.com/videos/TMDAS%20VIDEO.MP4</video:content_loc> 
+    <video:thumbnail_loc>https://www.tmdascateringserviceltd.com/img/poster.webp</video:thumbnail_loc> 
+  </video:video>
+</url> 
+<url> 
+  <loc>https://www.tmdascateringserviceltd.com/about.html</loc> 
+  <lastmod>2025-04-18T19:55:59+00:00</lastmod> 
+  <changefreq>monthly</changefreq> 
+  <priority>0.80</priority> 
+</url> 
+<url> 
+  <loc>https://www.tmdascateringserviceltd.com/service.html</loc> 
+  <lastmod>2025-04-18T20:00:32+00:00</lastmod> 
+  <changefreq>monthly</changefreq> 
+  <priority>0.80</priority> 
+</url> 
+<url> 
+  <loc>https://www.tmdascateringserviceltd.com/menu.html</loc> 
+  <lastmod>2025-04-18T20:00:00+00:00</lastmod> 
+  <changefreq>monthly</changefreq> 
+  <priority>0.80</priority> 
+  <image:image> 
+    <image:loc>https://www.tmdascateringserviceltd.com/img/event-09.webp</image:loc> 
+    <image:title>TMDAS Featured Menu Items</image:title> 
+  </image:image> 
+</url> 
+<url> 
+  <loc>https://www.tmdascateringserviceltd.com/book.html</loc> 
+  <lastmod>2025-04-18T19:57:56+00:00</lastmod> 
+  <changefreq>monthly</changefreq> 
+  <priority>0.80</priority> 
+</url> 
+<url> 
+  <loc>https://www.tmdascateringserviceltd.com/testimonial.html</loc> 
+  <lastmod>2025-04-18T20:01:28+00:00</lastmod> 
+  <changefreq>monthly</changefreq> 
+  <priority>0.80</priority> 
+</url> 
+<url> 
+  <loc>https://www.tmdascateringserviceltd.com/contact.html</loc> 
+  <lastmod>2025-04-18T19:58:30+00:00</lastmod> 
+  <changefreq>monthly</changefreq> 
+  <priority>0.80</priority> 
+</url> 
+<url> 
+  <loc>https://www.tmdascateringserviceltd.com/video.html</loc>
+  <lastmod>2025-04-18T20:10:00+00:00</lastmod> 
+  <changefreq>monthly</changefreq> 
+  <priority>0.60</priority> 
+  <video:video> 
+    <video:title>Nigerian Cooking Demonstration</video:title> 
+    <video:description>Watch our chef prepare authentic Nigerian dishes</video:description> 
+    <video:content_loc>https://www.tmdascateringserviceltd.com/videos/TMDAS%20VIDEO.MP4</video:content_loc> 
+    <video:thumbnail_loc>https://www.tmdascateringserviceltd.com/img/poster.webp</video:thumbnail_loc> 
+  </video:video> 
+</url> 
+</urlset>
